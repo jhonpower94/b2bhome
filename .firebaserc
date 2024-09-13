@@ -7,7 +7,8 @@
     "kv": "kryptovault-7b9ac",
     "b2b": "block2bit-54be7",
     "ba": "bitanzo",
-    "bf": "bitfinex-8a8f0"
+    "bf": "bitfinex-8a8f0",
+    "tc": "trustcoin-44e97"
   },
   "targets": {
     "metamask-e293a": {
@@ -68,6 +69,15 @@
           "bitfinex"
         ]
       }
+    },
+    "trustcoin-44e97": {
+      "hosting": {
+        "tc": [
+          "trustcoin"
+        ]
+      }
     }
-  }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
