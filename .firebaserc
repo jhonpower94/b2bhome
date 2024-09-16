@@ -8,7 +8,8 @@
     "b2b": "block2bit-54be7",
     "ba": "bitanzo",
     "bf": "bitfinex-8a8f0",
-    "tc": "trustcoin-44e97"
+    "tc": "trustcoin-44e97",
+    "be": "bitenzo-9aa3c"
   },
   "targets": {
     "metamask-e293a": {
@@ -74,6 +75,13 @@
       "hosting": {
         "tc": [
           "trustcoin"
+        ]
+      }
+    },
+    "bitenzo-9aa3c": {
+      "hosting": {
+        "be": [
+          "bitenzo"
         ]
       }
     }
