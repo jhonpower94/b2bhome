@@ -9711,7 +9711,24 @@
       href="#/images/splash/launch-2048x2732.png"
       media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"
     />
-    <script src="//code.jivosite.com/widget/9DJIr39ypo" async></script>
+    
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'xXbWxmFUofDgCBFT7Uqwhhsf',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+    
   </head>
   <body>
     <noscript
