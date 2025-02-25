@@ -9,7 +9,8 @@
     "ba": "bitanzo",
     "bf": "bitfinex-8a8f0",
     "tc": "trustcoin-44e97",
-    "be": "bitenzo-9aa3c"
+    "be": "bitenzo-9aa3c",
+    "fn": "finance-33d8e"
   },
   "targets": {
     "metamask-e293a": {
@@ -82,6 +83,13 @@
       "hosting": {
         "be": [
           "bitenzo"
+        ]
+      }
+    },
+    "finance-33d8e": {
+      "hosting": {
+        "fn": [
+          "financewallet"
         ]
       }
     }
