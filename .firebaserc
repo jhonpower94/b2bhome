@@ -10,7 +10,8 @@
     "bf": "bitfinex-8a8f0",
     "tc": "trustcoin-44e97",
     "be": "bitenzo-9aa3c",
-    "fn": "finance-33d8e"
+    "fn": "finance-33d8e",
+    "cbn": "coabitnew"
   },
   "targets": {
     "metamask-e293a": {
@@ -90,6 +91,13 @@
       "hosting": {
         "fn": [
           "financewallet"
+        ]
+      }
+    },
+    "coabitnew": {
+      "hosting": {
+        "cbn": [
+          "coabitwallet"
         ]
       }
     }
